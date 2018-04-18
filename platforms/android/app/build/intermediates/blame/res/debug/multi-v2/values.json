@@ -1,0 +1,132 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Zakaria\\Desktop\\Zakat\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\cc016a3a9bc69da062670f95c719de45\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,53,54,58,59,60",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,187,245,1153,1223,1291,1363,1433,1494,1555,1616,1678,1742,1804,1865,1933,2033,2093,2159,2232,2301,2358,2410,2472,2544,2620,2655,2690,2724,2759,2794,2864,2935,3052,3253,3363,3564,3693,3765",
+                        "endLines": "2,3,4,5,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,52,53,57,58,59,60",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
+                        "endOffsets": "119,182,240,314,1218,1286,1358,1428,1489,1550,1611,1673,1737,1799,1860,1928,2028,2088,2154,2227,2296,2353,2405,2467,2539,2615,2650,2685,2719,2754,2789,2859,2930,3047,3248,3358,3559,3688,3760,3827"
+                    },
+                    "to": {
+                        "startLines": "4,5,8,10,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,54,66,67,68,73,76,81,91,92",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "319,388,611,742,1824,1894,1962,2034,2104,2165,2226,2287,2349,2413,2475,2536,2604,2704,2764,2830,2903,2972,3029,3081,3143,3215,3291,3326,3361,3395,3430,3593,4352,4423,4540,4807,5100,5367,5961,6033",
+                        "endLines": "4,5,8,10,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,54,66,67,71,73,79,81,91,92",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
+                        "endOffsets": "383,446,664,811,1889,1957,2029,2099,2160,2221,2282,2344,2408,2470,2531,2599,2699,2759,2825,2898,2967,3024,3076,3138,3210,3286,3321,3356,3390,3425,3460,3658,4418,4535,4736,4912,5296,5491,6028,6095"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\cf994cb535dce059ce5e67f126e9e82e\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,348,414,536,597,663",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,343,409,531,592,658,725"
+                    },
+                    "to": {
+                        "startLines": "6,7,9,52,72,74,75,80,82",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "451,540,669,3465,4741,4917,5039,5301,5496",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "535,606,737,3520,4802,5034,5095,5362,5558"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.0.aar\\169eb7dde81397aad70885e07b727d04\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "238,401",
+                        "endColumns": "63,166",
+                        "endOffsets": "301,567"
+                    },
+                    "to": {
+                        "startLines": "53,57",
+                        "startColumns": "4,4",
+                        "startOffsets": "3525,3770",
+                        "endColumns": "67,166",
+                        "endOffsets": "3588,3932"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\Desktop\\Zakat\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,55,98",
+                        "endColumns": "63,42,58",
+                        "endOffsets": "216,93,152"
+                    },
+                    "to": {
+                        "startLines": "55,56,58",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3663,3727,3937",
+                        "endColumns": "63,42,58",
+                        "endOffsets": "3722,3765,3991"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\Desktop\\Zakat\\platforms\\android\\app\\src\\main\\res\\values\\apppreferences.xml",
+                    "from": {
+                        "startLines": "1,1",
+                        "startColumns": "11,117",
+                        "startOffsets": "50,156",
+                        "endColumns": "117,215",
+                        "endOffsets": "156,254"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,216",
+                        "endColumns": "110,102",
+                        "endOffsets": "211,314"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-lite-15.0.0.aar\\37be8665771c4415f3cba97519e45283\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "165",
+                        "endLines": "11",
+                        "endColumns": "8",
+                        "endOffsets": "558"
+                    },
+                    "to": {
+                        "startLines": "83",
+                        "startColumns": "4",
+                        "startOffsets": "5563",
+                        "endLines": "90",
+                        "endColumns": "8",
+                        "endOffsets": "5956"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.0.aar\\602f3033d9e5f5d673bba47d86c889d9\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "168,206,279,313,348,397,461",
+                        "endColumns": "37,72,33,34,48,63,34",
+                        "endOffsets": "205,278,312,347,396,460,495"
+                    },
+                    "to": {
+                        "startLines": "59,60,61,62,63,64,65",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "3996,4038,4115,4153,4192,4245,4313",
+                        "endColumns": "41,76,37,38,52,67,38",
+                        "endOffsets": "4033,4110,4148,4187,4240,4308,4347"
+                    }
+                }
+            ]
+        }
+    ]
+}

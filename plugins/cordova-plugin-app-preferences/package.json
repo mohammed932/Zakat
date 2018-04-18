@@ -1,0 +1,77 @@
+{
+  "_from": "git+https://github.com/vash15/me.apla.cordova.app-preferences.git",
+  "_id": "cordova-plugin-app-preferences@0.99.4",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-app-preferences",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/vash15/me.apla.cordova.app-preferences",
+    "rawSpec": "https://github.com/vash15/me.apla.cordova.app-preferences",
+    "saveSpec": "git+https://github.com/vash15/me.apla.cordova.app-preferences.git",
+    "fetchSpec": "https://github.com/vash15/me.apla.cordova.app-preferences.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/vash15/me.apla.cordova.app-preferences.git#adac3de7d8d46df6a52fc6ac73755e10bd4d47b6",
+  "_spec": "https://github.com/vash15/me.apla.cordova.app-preferences",
+  "_where": "C:\\Users\\Zakaria\\Desktop\\Zakat",
+  "author": {
+    "name": "Ivan Baktsheev"
+  },
+  "bin": {
+    "cordova-app-preferences-generator": "bin/build-app-settings.js"
+  },
+  "bugs": {
+    "url": "https://github.com/apla/me.apla.cordova.app-preferences/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-app-preferences",
+    "platforms": [
+      "android",
+      "ios",
+      "osx",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "blackberry10"
+    ]
+  },
+  "deprecated": false,
+  "description": "Application preferences plugin and preference pane generator",
+  "devDependencies": {
+    "cordova": ">=5.4.1",
+    "elementtree": "^0.1.6",
+    "ios-sim": ">=5.0.5",
+    "jasmine": "^2.3.2",
+    "plist": "1.1.0",
+    "q": "^1.4.1",
+    "serve-me": "^0.8.2"
+  },
+  "homepage": "https://github.com/apla/me.apla.cordova.app-preferences",
+  "keywords": [
+    "preferences",
+    "settings",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows",
+    "cordova-windows8",
+    "cordova-blackberry10"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-app-preferences",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apla/me.apla.cordova.app-preferences.git"
+  },
+  "version": "0.99.4"
+}

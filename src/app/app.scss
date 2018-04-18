@@ -1,0 +1,91 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+* 
+{
+    direction: rtl;
+}
+ion-title {
+    font-family: 'Cairo';
+    font-size:16px !important;
+}
+/*
+ion-content {
+    font-family: Bader;
+}
+*/
+ $toolbar-background: color($colors, primary);
+
+ ion-title,ion-card{
+    font-family: 'Cairo' !important;
+    font-size:15px !important;
+ }  
+ button,div{
+        font-family: 'Cairo' !important;
+    }
+    
+    ion-content {
+        background-color: rgb(190, 225, 236);
+    }
+    
+     body {
+          
+           font-family: 'Cairo' !important;
+         }
+
+         h3 {
+             color: rgb(7, 7, 20);
+             font-family: "Cairo";
+             font-size: 150%;
+            width:100%;
+            text-align:right !important;
+            
+            }
+
+            h3 ins{
+                background-color:black;
+                text-decoration:none;
+                color:white;
+                transition:all .5s;
+                
+            }
+            h3 ins:hover{
+                color:black;
+                background:burlywood
+            }
+         p  {
+             color: rgb(10, 6, 6);
+             font-family: 'amiri' !important;
+             font-size: 120%;
+             
+         border: none rgb(228, 228, 228);
+         padding: 5px;
+         text-align: justify;
+
+         }
+
+         .footer {
+         padding: 20px;
+         text-align: start;
+         background: rgb(36, 48, 17);
+         margin-top: 20px;
+         font-family: 'amiri' !important;
+         
+     }
+     .toolbar-title-md{
+         font-size:16px;
+     }
+       

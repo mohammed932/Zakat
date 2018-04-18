@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Zakaria\\Desktop\\Zakat\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.0.aar\\602f3033d9e5f5d673bba47d86c889d9\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,270,379,443,510,599,702",
+                        "endColumns": "72,108,63,66,88,102,75",
+                        "endOffsets": "269,378,442,509,598,701,777"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "303,380,493,561,632,725,832",
+                        "endColumns": "76,112,67,70,92,106,79",
+                        "endOffsets": "375,488,556,627,720,827,907"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.0.aar\\169eb7dde81397aad70885e07b727d04\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "197",
+                        "endOffsets": "444"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "197",
+                        "endOffsets": "298"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zakaria\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\cc016a3a9bc69da062670f95c719de45\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "912",
+                        "endColumns": "100",
+                        "endOffsets": "1008"
+                    }
+                }
+            ]
+        }
+    ]
+}

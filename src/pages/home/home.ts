@@ -1,3 +1,4 @@
+import { AdsProvider } from './../../providers/ads/ads';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { IntroductionPage } from '../introduction/introduction';
@@ -9,8 +10,9 @@ import { ToastController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController, public toastCtrl: ToastController) {
-
+  constructor(public navCtrl: NavController,
+    private adService : AdsProvider) {
+     this.adService.showAds()
   }
   OpenIntroductionPage() {
     this.navCtrl.push(IntroductionPage);

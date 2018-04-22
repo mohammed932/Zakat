@@ -1,3 +1,4 @@
+import { AdsProvider } from './../../providers/ads/ads';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { EvidencePage } from '../evidence/evidence';
@@ -14,14 +15,16 @@ import { HorsePage } from '../horse/horse';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-animals',
   templateUrl: 'animals.html',
 })
 export class AnimalsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+    private adService : AdsProvider,
+    public navParams: NavParams) {
+     this.adService.showAds()
   }
 
   ionViewDidLoad() {

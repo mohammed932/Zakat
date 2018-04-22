@@ -1,3 +1,4 @@
+import { AdsProvider } from './../../providers/ads/ads';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { GoldPage } from '../gold/gold';
@@ -11,14 +12,16 @@ import { BanknotesPage } from '../banknotes/banknotes';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-mony',
   templateUrl: 'mony.html',
 })
 export class MonyPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+    private adService : AdsProvider,
+    public navParams: NavParams) {
+     this.adService.showAds()
   }
 
   ionViewDidLoad() {

@@ -1,3 +1,4 @@
+import { AdsProvider } from './../../providers/ads/ads';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { DefinitionfPage } from '../definitionf/definitionf';
@@ -14,14 +15,16 @@ import { LogicalPage } from '../logical/logical';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-definition',
   templateUrl: 'definition.html',
 })
 export class DefinitionPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+    private adService : AdsProvider,
+    public navParams: NavParams) {
+     this.adService.showAds()
   }
 
   ionViewDidLoad() {

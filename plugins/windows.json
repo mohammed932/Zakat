@@ -22,12 +22,15 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "Zakat"
     },
-    "cordova-plugin-admobpro": {
+    "cordova-plugin-admob-free": {
       "PACKAGE_NAME": "Zakat"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-extension": {
+    "cordova-promise-polyfill": {
+      "PACKAGE_NAME": "Zakat"
+    },
+    "cordova-admob-sdk": {
       "PACKAGE_NAME": "Zakat"
     }
   }

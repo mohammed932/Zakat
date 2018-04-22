@@ -1,3 +1,4 @@
+import { AdsProvider } from './../../providers/ads/ads';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { YoungPage } from '../young/young';
@@ -19,14 +20,16 @@ import { RichPage } from '../rich/rich';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-ahkam',
   templateUrl: 'ahkam.html',
 })
 export class AhkamPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+    private adService : AdsProvider,
+    public navParams: NavParams) {
+     this.adService.showAds()
   }
 
   ionViewDidLoad() {

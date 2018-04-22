@@ -47,10 +47,11 @@ import { TaxesPage } from '../pages/taxes/taxes';
 import { AcceleratingPage } from '../pages/accelerating/accelerating';
 import { DelayPage } from '../pages/delay/delay';
 import { RichPage } from '../pages/rich/rich';
-
+import { AdMobFree } from '@ionic-native/admob-free';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AdsProvider } from '../providers/ads/ads';
 
 
 @NgModule({
@@ -105,7 +106,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      tabsHideOnSubPages: true,
+      prodMode: true
+  }),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -159,8 +163,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   providers: [
     StatusBar,
+    AdMobFree,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AdsProvider
   ]
 })
 export class AppModule {}

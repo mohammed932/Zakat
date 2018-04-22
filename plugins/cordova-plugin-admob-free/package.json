@@ -1,24 +1,28 @@
 {
-  "_from": "git+https://github.com/ratson/cordova-plugin-admob-free.git",
+  "_from": "cordova-plugin-admob-free",
   "_id": "cordova-plugin-admob-free@0.15.0",
   "_inBundle": false,
-  "_integrity": "",
+  "_integrity": "sha1-5d8DYURZuFUyvWUmKLDt03qyiV0=",
   "_location": "/cordova-plugin-admob-free",
   "_phantomChildren": {},
   "_requested": {
-    "type": "git",
-    "raw": "https://github.com/ratson/cordova-plugin-admob-free.git",
-    "rawSpec": "https://github.com/ratson/cordova-plugin-admob-free.git",
-    "saveSpec": "git+https://github.com/ratson/cordova-plugin-admob-free.git",
-    "fetchSpec": "https://github.com/ratson/cordova-plugin-admob-free.git",
-    "gitCommittish": null
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-admob-free",
+    "name": "cordova-plugin-admob-free",
+    "escapedName": "cordova-plugin-admob-free",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
-  "_resolved": "git+https://github.com/ratson/cordova-plugin-admob-free.git#a0d8f1083a00c7deaa8c65c40e96ec37ab403a3c",
-  "_spec": "https://github.com/ratson/cordova-plugin-admob-free.git",
-  "_where": "C:\\Users\\Zakaria\\Desktop\\Zakat",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-admob-free/-/cordova-plugin-admob-free-0.15.0.tgz",
+  "_shasum": "e5df03614459b85532bd652628b0edd37ab2895d",
+  "_spec": "cordova-plugin-admob-free",
+  "_where": "/ionic projects/Zakat",
   "author": {
     "name": "Ratson"
   },
@@ -47,7 +51,7 @@
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-lodash": "^3.3.2",
-    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-module-resolver": "^3.1.0",
     "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
     "babel-plugin-transform-es3-property-literals": "^6.22.0",
     "babel-plugin-transform-object-assign": "^6.22.0",
@@ -67,16 +71,14 @@
     "esdoc-importpath-plugin": "^1.0.1",
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^4.19.1",
-    "eslint-config-concise": "^0.22.0",
-    "eslint-config-concise-esnext": "^0.22.0",
+    "eslint-config-concise": "^0.20.0",
+    "eslint-config-concise-esnext": "^0.20.0",
     "eslint-config-concise-jest": "^0.20.0",
-    "husky": "^0.14.3",
     "jest": "^22.4.3",
-    "lint-staged": "^7.0.4",
     "lintspaces-cli": "^0.6.0",
     "lodash": "^4.17.5",
-    "lodash-es": "^4.17.8",
-    "nodemon": "^1.17.3",
+    "lodash-es": "^4.17.7",
+    "nodemon": "^1.17.2",
     "npm-run-all": "^4.1.2",
     "rimraf": "^2.6.2",
     "rollup": "^0.57.1",
@@ -114,15 +116,6 @@
     "admobpro"
   ],
   "license": "MIT",
-  "lint-staged": {
-    "*.{java,js,html,h,m,md,xml}": [
-      "lintspaces -n -t -d spaces"
-    ],
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "name": "cordova-plugin-admob-free",
   "repository": {
     "type": "git",
@@ -139,7 +132,6 @@
     "lint:js": "eslint --ext js,md .",
     "lint:spaces": "lintspaces -n -t -d spaces *.* src/**/*.* tests/**/*.* examples/*/*.* examples/*/www/*.*",
     "postpublish": "run-s docs",
-    "precommit": "lint-staged",
     "prepublish": "run-s clean build",
     "pretest": "cross-env BABEL_ENV=test run-s build",
     "test": "run-p test:* lint:*",

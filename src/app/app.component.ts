@@ -19,7 +19,7 @@ import { MetalsPage } from '../pages/metals/metals';
 import { StocksPage } from '../pages/stocks/stocks';
 import { EarthPage } from '../pages/earth/earth';
 import { AlfitrPage } from '../pages/alfitr/alfitr';
-import { AhkamPage} from '../pages/ahkam/ahkam';
+import { AhkamPage } from '../pages/ahkam/ahkam';
 import { CharityPage } from '../pages/charity/charity';
 import { ZakatoligationPage } from '../pages/zakatoligation/zakatoligation';
 import { RulingonzakatPage } from '../pages/rulingonzakat/rulingonzakat';
@@ -51,15 +51,15 @@ import { RichPage } from '../pages/rich/rich';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TabsPage;
+  rootPage: any = TabsPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, public toastCtrl: ToastController) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
-      splashScreen.hide();
+      setTimeout(() => splashScreen.hide(), 500)
     });
   }
-  
+
 }

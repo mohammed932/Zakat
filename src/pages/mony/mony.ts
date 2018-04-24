@@ -19,8 +19,7 @@ import { BanknotesPage } from '../banknotes/banknotes';
 export class MonyPage {
 
   constructor(public navCtrl: NavController,
-    private adService : AdsProvider,
-    public navParams: NavParams) {
+    private adService : AdsProvider) {
      this.adService.showAds()
   }
 

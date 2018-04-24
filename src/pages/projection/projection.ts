@@ -16,8 +16,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class ProjectionPage {
 
   constructor(public navCtrl: NavController,
-    private adService : AdsProvider,
-    public navParams: NavParams) {
+    private adService : AdsProvider) {
      this.adService.showAds()
   }
 

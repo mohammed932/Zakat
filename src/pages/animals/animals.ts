@@ -22,8 +22,7 @@ import { HorsePage } from '../horse/horse';
 export class AnimalsPage {
 
   constructor(public navCtrl: NavController,
-    private adService : AdsProvider,
-    public navParams: NavParams) {
+    private adService : AdsProvider) {
      this.adService.showAds()
   }
 

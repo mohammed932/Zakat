@@ -22,8 +22,7 @@ import { LogicalPage } from '../logical/logical';
 export class DefinitionPage {
 
   constructor(public navCtrl: NavController,
-    private adService : AdsProvider,
-    public navParams: NavParams) {
+    private adService : AdsProvider) {
      this.adService.showAds()
   }
 

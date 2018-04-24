@@ -108,6 +108,7 @@ import { AdsProvider } from '../providers/ads/ads';
     BrowserModule,
     IonicModule.forRoot(MyApp, {
       tabsHideOnSubPages: true,
+      backButtonText: '',
       prodMode: true
   }),
   ],

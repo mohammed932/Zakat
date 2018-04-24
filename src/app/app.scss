@@ -1,5 +1,5 @@
 // http://ionicframework.com/docs/theming/
-
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 // App Global Sass
 // --------------------------------------------------
@@ -89,3 +89,39 @@ ion-content {
          font-size:16px;
      }
        
+
+    //  .ion-ios-arrow-back:before{
+    //     content: "";
+    //  }
+
+    .ion-ios-arrow-back:before,
+    .ion-md-arrow-back:before{
+        content:"\f104";
+        font:normal normal normal 35px/1 FontAwesome;
+    }
+
+    .ion-ios-home:before , 
+    .ion-md-home:before,
+    .ion-ios-home-outline:before,
+    .ion-md-home-outline:before{
+        content:"\f015";
+        font:normal normal normal 35px/1 FontAwesome;
+    }
+
+    .ion-ios-information-circle:before , 
+    .ion-md-information-circle:before,
+    .ion-ios-information-circle-outline:before,
+    .ion-md-information-circle-outline:before{
+        content:"\f05a";
+        font:normal normal normal 35px/1 FontAwesome;
+    }
+    .ion-ios-contacts:before , 
+    .ion-md-contacts:before,
+    .ion-ios-contacts-outline:before,
+    .ion-md-contacts-outline:before{
+        content:"\f095";
+        font:normal normal normal 35px/1 FontAwesome;
+    }
+    // \f2be
+    
+

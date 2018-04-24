@@ -27,8 +27,7 @@ import { RichPage } from '../rich/rich';
 export class AhkamPage {
 
   constructor(public navCtrl: NavController,
-    private adService : AdsProvider,
-    public navParams: NavParams) {
+    private adService : AdsProvider) {
      this.adService.showAds()
   }
 

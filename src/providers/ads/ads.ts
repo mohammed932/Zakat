@@ -17,44 +17,44 @@ export class AdsProvider {
 
 
   launchBannerAd() {
-    const bannerConfig: AdMobFreeBannerConfig = {
-      id: 'ca-app-pub-7447959077215583/2122600967',
-      autoShow: true,
-    }
-    this.admobFree.banner.config(bannerConfig)
-    this.admobFree.banner.prepare().then(() => {
-      //
-    }).catch(e => {
-      console.error(e);
-    })
+    // const bannerConfig: AdMobFreeBannerConfig = {
+    //   id: 'ca-app-pub-7447959077215583/2122600967',
+    //   autoShow: true,
+    // }
+    // this.admobFree.banner.config(bannerConfig)
+    // this.admobFree.banner.prepare().then(() => {
+    //   //
+    // }).catch(e => {
+    //   console.error(e);
+    // })
   }
 
   launchInterstitial() {
 
-    let interstitialConfig: AdMobFreeInterstitialConfig = {
-      autoShow: true,
-      id: 'ca-app-pub-7447959077215583/1941068292'
-    };
+    // let interstitialConfig: AdMobFreeInterstitialConfig = {
+    //   autoShow: true,
+    //   id: 'ca-app-pub-7447959077215583/1941068292'
+    // };
 
-    this.admobFree.interstitial.config(interstitialConfig);
+    // this.admobFree.interstitial.config(interstitialConfig);
 
-    this.admobFree.interstitial.prepare().then(() => {
-      // success
-    });
+    // this.admobFree.interstitial.prepare().then(() => {
+    //   // success
+    // });
 
   }
 
   launchVideoAd() {
-    let interstitialConfig: AdMobFreeRewardVideoConfig = {
-      autoShow: true,
-      id: 'ca-app-pub-7447959077215583/1853438388'
-    };
+    // let interstitialConfig: AdMobFreeRewardVideoConfig = {
+    //   autoShow: true,
+    //   id: 'ca-app-pub-7447959077215583/1853438388'
+    // };
 
-    this.admobFree.rewardVideo.config(interstitialConfig);
+    // this.admobFree.rewardVideo.config(interstitialConfig);
 
-    this.admobFree.rewardVideo.prepare().then(() => {
-      // success
-    });
+    // this.admobFree.rewardVideo.prepare().then(() => {
+    //   // success
+    // });
   }
 
 }

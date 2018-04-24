@@ -1,3 +1,4 @@
+import { AdsProvider } from './../../providers/ads/ads';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -15,7 +16,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class StocksPage {
 
   alertCtrl: any;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+    private adService : AdsProvider) {
+     this.adService.showAds()
   }
 
   ionViewDidLoad() {

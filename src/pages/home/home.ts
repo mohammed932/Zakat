@@ -12,7 +12,7 @@ export class HomePage {
 
   constructor(public navCtrl: NavController,
     private adService : AdsProvider) {
-     this.adService.showAds()
+     this.adService.showAdsWithoutInterstitial()
   }
   OpenIntroductionPage() {
     this.navCtrl.push(IntroductionPage);

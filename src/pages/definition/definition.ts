@@ -23,7 +23,7 @@ export class DefinitionPage {
 
   constructor(public navCtrl: NavController,
     private adService : AdsProvider) {
-     this.adService.showAds()
+     this.adService.showAdsWithoutInterstitial()
   }
 
   ionViewDidLoad() {

@@ -108,6 +108,22 @@ ion-content {
         font:normal normal normal 35px/1 FontAwesome;
     }
 
+
+    .ion-logo-facebook:before{
+        content:"\f230";
+        font:normal normal normal 35px/1 FontAwesome; 
+    }
+
+
+    .ion-ios-home:before , 
+    .ion-md-home:before,
+    .ion-ios-home-outline:before,
+    .ion-md-home-outline:before{
+        content:"\f015";
+        font:normal normal normal 35px/1 FontAwesome;
+    }
+
+
     .ion-ios-information-circle:before , 
     .ion-md-information-circle:before,
     .ion-ios-information-circle-outline:before,
